@@ -9,23 +9,27 @@ Steps to run the application:
 ```bash
 composer install
 ```
-5. Run the command to migrate:
+5. Run the command:
+```bash
+php php artisan key:generate
+```
+6. Run the command to migrate:
 ```bash
 php artisan migrate
 ```
-6. Run the command to seed:
+7. Run the command to seed:
 ```bash
 php artisan db:seed
 ```
-7. Run the command:
+8. Run the command:
 ```bash
 php artisan storage:link
 ```
-8. Run the command to run the application:
+9. Run the command to run the application:
 ```bash
 php artisan serve
 ```
-9. Login with this credential:
+10. Login with this credential:
 - User ID: admin
 - Password: admin123
 
